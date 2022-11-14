@@ -1,4 +1,3 @@
-import React from "react";
 import reactLogo from "../images/react-logo.png";
 
 export default function Header() {
@@ -6,10 +5,9 @@ export default function Header() {
     <header>
       <nav className="navigation">
         <img className="navigation__image" src={reactLogo} alt="React-Logo" />
+        <h3 className="navigation__title">ReactFacts</h3>
         <ul className="navigation__items">
-          <li className="navigation__item">Pricing</li>
-          <li className="navigation__item">About</li>
-          <li className="navigation__item">Contact</li>
+          <li className="navigation__item">React Course — Project 1</li>
         </ul>
       </nav>
     </header>

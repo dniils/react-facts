@@ -20,6 +20,14 @@
   height: 40px;
 }
 
+.navigation__title {
+  flex: 1 1 0;
+  margin-left: 13px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #61dafb;
+}
+
 .navigation__items {
   list-style: none;
   display: flex;
@@ -28,20 +36,36 @@
 
 .navigation__item {
   margin-right: 10px;
+  font-weight: 600;
+  color: #deebf8;
 }
 
 .content {
   padding: 57px 20px 125px 20px;
-  background-color: #33373e;
+  background-color: #282d35;
   font-size: 16px;
+  font-weight: 400;
+  background-image: url(./images/react-logo-bg.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
 }
 
-.content__header {
+.content__title {
   margin: 0;
   padding: 0;
   font-size: 40px;
+  font-weight: 700;
+}
+
+.content__list {
+  width: 80%;
 }
 
 .content__list-item {
   margin-bottom: 20px;
+}
+
+.content__list-item::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
 }
